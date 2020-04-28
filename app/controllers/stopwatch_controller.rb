@@ -1,0 +1,2 @@
+class StopwatchController < ApplicationController
+end
