@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   end
   resources :fortune, only: [:index] do
   end
+  resources :quiz, only: [:index] do
+  end
 end

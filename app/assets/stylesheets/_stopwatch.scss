@@ -1,7 +1,10 @@
 .stopwatch {
   font-family: 'Courier New', monospace;
   font-size: 14px;
-  padding-top: 250px;
+  background: #efdec1;
+  height: calc(100vh - 200px);
+  padding-top: 200px;
+  width: 100vw;
 }
 
 .container {
