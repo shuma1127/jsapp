@@ -7,11 +7,18 @@
   cursor: pointer;
 }
 
+.content {
+  height: calc(100vh - 120px);
+  width: 100vh;
+  background-color: white;
+}
+
 .header {
   width: 100vw;
   height: 120px;
-  background-color: blanchedalmond;
+  background-color: brown;
   text-align: center;
   line-height: 120px;
   font-size: 50px;
+  color: white;
 }
