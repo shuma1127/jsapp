@@ -5,39 +5,40 @@
   height: calc(100vh - 200px);
   padding-top: 200px;
   width: 100vw;
-}
 
-.container {
-  margin: 0 auto;
-  width: 270px;
-  background: #fff;
-  padding: 15px;
-  text-align: center;
-}
 
-#timer {
-  background: #ddd;
-  height: 120px;
-  line-height: 120px;
-  font-size: 40px;
-  margin-bottom: 15px;
-}
+  .container {
+    margin: 0 auto;
+    width: 270px;
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+  }
 
-.btn {
-  width: 80px;
-  height: 45px;
-  line-height: 45px;
-  background: #ddd;
-  font-weight: bold;
-  cursor: pointer;
-  user-select: none;
-}
+  #timer {
+    background: #ddd;
+    height: 120px;
+    line-height: 120px;
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
 
-.controls {
-  display: flex;
-  justify-content: space-between;
-}
+  .btn {
+    width: 80px;
+    height: 45px;
+    line-height: 45px;
+    background: #ddd;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+  }
 
-.inactive{
-  opacity: 0.6;
+  .controls {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .inactive{
+    opacity: 0.6;
+  }
 }
