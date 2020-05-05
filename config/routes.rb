@@ -8,4 +8,6 @@ Rails.application.routes.draw do
   end
   resources :slideshow, only: [:index] do
   end
+  resources :slot, only: [:index] do
+  end
 end
