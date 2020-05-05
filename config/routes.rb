@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   end
   resources :quiz, only: [:index] do
   end
+  resources :slideshow, only: [:index] do
+  end
 end
