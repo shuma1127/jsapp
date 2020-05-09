@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'type/index'
   root to: 'summary#index'
   resources :stopwatch, only: [:index] do
   end
@@ -9,5 +10,7 @@ Rails.application.routes.draw do
   resources :slideshow, only: [:index] do
   end
   resources :slot, only: [:index] do
+  end
+  resources :type, only: [:index] do
   end
 end
