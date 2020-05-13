@@ -15,4 +15,6 @@ Rails.application.routes.draw do
   end
   resources :type, only: [:index] do
   end
+  resources :numbers, only: [:index] do
+  end
 end
