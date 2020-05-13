@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'numbers/Game'
+  get 'numbers/index'
   get 'type/index'
   root to: 'summary#index'
   resources :stopwatch, only: [:index] do
