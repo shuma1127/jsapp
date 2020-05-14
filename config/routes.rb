@@ -19,8 +19,5 @@ Rails.application.routes.draw do
 
   resources :type, only: [:index] do
   end
-
-  resources :number, only: [:index] do
-  end
   
 end
