@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  get 'number/index'
   root to: 'summary#index'
 
   resources :stopwatch, only: [:index] do
